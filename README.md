@@ -11,7 +11,6 @@ This project integrates multiple sensors with a Python and Shell script workflow
 - [Directory Structure](#directory-structure)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Configuration](#configuration)
 - [Examples](#examples)
 
 ## Features
@@ -82,12 +81,6 @@ project/
 - **Hardware Requirements**:
   - Sensors: BME 680, MPU 9250, GPS module, magnetometer, UV sensor
   - Camera (for SSTV)
-
-## Configuration
-
-- Modify sensor configurations in their respective directories (`bme680/config.py`, etc.).
-- Update the APRS packet format in `aprs.sh` as needed.
-- Ensure correct camera and audio device settings for SSTV in `sstv/config.py`.
 
 ## Examples
 
